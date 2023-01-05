@@ -1,7 +1,30 @@
-h1 {
-  text-align: center; 
+:root{
+  --white:#fff;
+  --black:#212121;
+  --yellow:#ffc107;
+  --aqua:#0097a7;
+  --grey:#757575;
 }
 
-span{
-    font-size: 16px;
+
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Krub', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem; 
+  color: var(--black);
+  
+}
+
+.titulo span{
+  font-size: 1rem;
+  
 }
